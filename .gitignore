@@ -1,0 +1,28 @@
+# Environment / secrets
+.env
+
+# Virtual environment
+.venv/
+
+# Browser profile (contains login sessions)
+data/browser_profile/
+
+# Database (personal application data)
+data/jobs.db
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Playwright browsers (large, auto-downloaded)
+# ~/.cache/ms-playwright is outside this repo so usually not an issue
+# but just in case:
+playwright-browsers/
+
+# OS
+.DS_Store
+Thumbs.db
